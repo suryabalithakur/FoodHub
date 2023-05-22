@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Bootstrap CDN-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!--Custom CSS Stylesheet and other dependencies-->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <title>Food Hub</title>
+  </head>
+  <body>
+    <!-- Navbar  -->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand font-weight-bold" href="#">Food Hub </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto font-weight-bold">
+          <a class="nav-item nav-link active" href="#home"
+            >Home <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link" href="#about">About</a>
+          <a class="nav-item nav-link" href="#instructors">Instructors</a>
+          <a class="nav-item nav-link" href="#contact">Contact</a>
+        </div>
+        <div class="navbar-text ml-lg-3">
+          <a href="#" class="btn btn-danger text-white shadow font-weight-bold"
+            >Start Today</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero  -->
+
+    <section
+      id="home"
+      class="d-flex align-items-center position-relative vh-100 cover"
+      style="
+        background-image: url(/img/food.jpg.webp);
+      "
+    >
+      <div class="container-fluid container-fluid-max">
+        <div class="row">
+          <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <h1 class="text-white heroText">Self Defense</h1>
+            <h1 class="text-white heroText">Training</h1>
+            <h1 class="text-white heroText">Class</h1>
+            <div class="mt-6">
+              <a
+                class="btn btn-danger text-white heroButton"
+                href=""
+                role="button"
+                >More Info</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-12 downArrow">
+          <span id="down"><i class="fas fa-caret-down bounce"></i></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="text-dark text-center topGap font-weight-bold">About Us</h2>
+        <hr class="hrStyle" />
+        <p class="text-muted text-center mb-5">
+          Welcome to Food Hub, the ultimate destination for food enthusiasts
+          and gastronomes alike. We are thrilled to invite you to a virtual
+          culinary journey where taste, creativity, and inspiration come
+          together. Food Hub is not just a food website; it's an online hub
+          dedicated to celebrating the art of cooking, exploring diverse
+          cuisines, and fostering a community of passionate food lovers. Whether
+          you're an aspiring home cook, a seasoned chef, or someone who simply
+          appreciates good food, this is the place for you. At Food Adda, we
+          believe that food is more than mere sustenance; it is an expression of
+          culture, a source of joy, and a catalyst for bringing people together.
+          Our mission is to ignite your taste buds and inspire you to embark on
+          your own culinary adventures. We strive to provide a platform where
+          food enthusiasts can connect, share their experiences, and discover
+          new flavors from around the world
+        </p>
+        <div class="row">
+          <div class="col-sm-6 col-lg-4 mb-3">
+            <h6>
+              <span
+                ><i
+                  class="fas fa-dumbbell text-danger fontSymbolsAbout"
+                ></i></span
+              ><strong> Professional Instructors</strong>
+            </h6>
+            <p class="text-muted">
+              Nullam a sollicitudin sapien. Pellentesque ac aliquet massa.
+              Curabitur est tellus, mollis aliquet volutpat nec, vestibulum vel
+              velit. Donec maximus vehicula ligula.
+            </p>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-3">
+            <h6>
+              <span
+                ><i
+                  class="fas fa-calendar-times text-danger fontSymbolsAbout"
+                ></i></span
+              ><strong> Flexible time</strong>
+            </h6>
+            <p class="text-muted">
+              Nullam a sollicitudin sapien. Pellentesque ac aliquet massa.
+              Curabitur est tellus, mollis aliquet volutpat nec, vestibulum vel
+              velit. Donec maximus vehicula ligula.
+            </p>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-3">
+            <h6>
+              <span
+                ><i
+                  class="fas fa-money-check-alt text-danger fontSymbolsAbout"
+                ></i></span
+              ><strong> Money Saving</strong>
+            </h6>
+            <p class="text-muted">
+              Nullam a sollicitudin sapien. Pellentesque ac aliquet massa.
+              Curabitur est tellus, mollis aliquet volutpat nec, vestibulum vel
+              velit. Donec maximus vehicula ligula.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="instructors" class="bg-light mb-5 pb-5">
+      <div class="container text-center">
+        <h2 class="text-dark topGap font-weight-bold">Our Instructors</h2>
+        <hr class="hrStyle" />
+        <p class="text-muted mb-5">
+          Regional food hubs – businesses or organizations that connect farmers and buyers by offering a suite of production, distribution, and marketing services – can play a critical role in developing stronger supply chains for local food.  They can also help address the infrastructure challenges that many small and midsize producers face when trying to break into local markets, and help aggregate products from smaller local and regional producers.  Food hubs can also support food access, regional economic development and job creation.
+
+        </p>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card shadow border-0 h-100">
+              <a href="#"
+                ><img
+                  src="/img/sanjeev.jpg"
+                  alt=""
+                  class="card-img-top"
+              /></a>
+              <div class="card-body">
+                <h5 class="text-danger card-title">Sanjeev Kapoor</h5>
+                <p class="text-muted card-text">
+                  Sanjeev Kapoor is a renowned Indian celebrity chef, restaurateur, and television show host. He is one of the most recognized faces in the Indian culinary world and has played a significant role in popularizing Indian cuisine globally.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card shadow border-0 h-100">
+              <a href="#"
+                 ><img
+                  src="/img/ranjeev.jfif"
+                  alt=""
+                  class="card-img-top"
+              /></a>
+              <div class="card-body">
+                <h5 class="text-danger card-title">Ranvir Brar</h5>
+                <p class="text-muted card-text">
+                  Ranveer Brar is a well-known Indian celebrity chef, television show host, and author. He is known for his expertise in Indian cuisine and his ability to blend traditional flavors with modern cooking techniques. Ranveer Brar has gained popularity through his appearances on various culinary shows and his engaging and charismatic personality.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card shadow border-0 h-100">
+              <a href="#"
+                ><img
+                  src="/img/vikaas.jpg"
+                  alt=""
+                  class="card-img-top"
+              /></a>
+              <div class="card-body">
+                <h5 class="text-danger text-align-center card-title">Vikas Khanna</h5>
+                <p class="text-muted card-text">
+                  Vikas Khanna is an acclaimed Indian-American chef, restaurateur, cookbook writer, and humanitarian. He has made significant contributions to the culinary world and has been recognized for his expertise in Indian cuisine.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="py-5 bg-light">
+        <div class="container">
+          <div class="row d-flex justify-content-around">
+            <div class="col-lg-4 mb-4">
+              <ul class="contact-info list-unstyled">
+                <li>
+                  <span><i class="fas fa-phone text-danger"></i></span
+                  ><strong> Call Us Today!</strong>
+                </li>
+                <li>
+                  <a href="tel:123456789" class="ml-3 text-dark">
+                    +91 123 456 789</a
+                  >
+                </li>
+                <br />
+                <li>
+                  <span><i class="fas fa-map-marker-alt text-danger"></i></span>
+                  Morbi Highway, bedi
+                </li>
+                <li>
+                  <a href="tel:123456789" class="text-dark ml-3">
+                    Rajkot, Gujarat</a
+                  >
+                </li>
+              </ul>
+              <p class="text-muted ml-3">Laborum aute enim consectetur</p>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <h5>Pages</h5>
+              <ul class="links list-unstyled">
+                <li><a href="#" class="text-muted">Home</a></li>
+                <li><a href="#" class="text-muted">About</a></li>
+                <li><a href="#" class="text-muted">Instructors</a></li>
+                <li><a href="#" class="text-muted">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <h5>Favorites</h5>
+              <ul class="links list-unstyled">
+                <li><a href="#" class="text-muted">Minim labore nulla</a></li>
+                <li><a href="#" class="text-muted">Nulla qui nisi</a></li>
+                <li><a href="#" class="text-muted">Iris Vor Arnim</a></li>
+                <li>
+                  <a href="#" class="text-muted">Consectetur cupidatat</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <a href="#" class=""
+              ><i class="fab fa-facebook-square text-danger mr-3 fontSocial"></i
+            ></a>
+            <a href="#" class=""
+              ><i class="fab fa-twitter-square text-danger fontSocial mr-3"></i
+            ></a>
+            <a href="#" class=""
+              ><i class="fab fa-github-square text-danger fontSocial"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="py-3 bg-dark text-white">
+        <div class="text-center">
+          <p>&copy; 2023 Body Building Wala. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
